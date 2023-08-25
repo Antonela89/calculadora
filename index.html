@@ -4,38 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-
+    <!-- link css -->
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
     <div class="container">
         <div class="visor">
             <p class="expresion"></p>
             <p class="resultado"></p>
         </div>
         <div class="botonera">
-            <button class="boton">AC</button>
+            <button class="boton boton-receteo">AC</button>
             <button class="boton">( )</button>
             <button class="boton">%</button>
-            <button class="boton">/</button>
+            <button class="boton boton-operacionesBasicas">/</button>
             <button class="boton">7</button>
             <button class="boton">8</button>
             <button class="boton">9</button>
-            <button class="boton">X</button>
+            <button class="boton boton-operacionesBasicas">*</button>
             <button class="boton">4</button>
             <button class="boton">5</button>
             <button class="boton">6</button>
-            <button class="boton">-</button>
+            <button class="boton boton-operacionesBasicas">-</button>
             <button class="boton">1</button>
             <button class="boton">2</button>
             <button class="boton">3</button>
-            <button class="boton">+</button>
+            <button class="boton boton-operacionesBasicas">+</button>
             <button class="boton">0</button>
             <button class="boton">.</button>
             <button class="boton">←</button>
-            <button class="boton">=</button>
+            <button class="boton boton-operacionesBasicas">=</button>
+        </div>
+        <div class="botonModos">
+            <button class="modos">Científica</button>
+            <button class="modos">Historial</button>
         </div>
     </div>
+    <!-- link js -->
+<script src="./main.js"></script>
 </body>
 </html>

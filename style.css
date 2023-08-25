@@ -5,9 +5,21 @@
     /* font-size: 62.5%; */
 }
 
+
+/* diseño mobile */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     border: 1px  solid green;
     max-width: 60%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .visor{
@@ -15,12 +27,11 @@
     border: 1px solid red;
 }
 
-.expresion {
+.expresion, .resultado {
     /* border: 1px solid blue; */
-}
-
-.resultado {
-
+    width: 100%;
+    padding: 1rem;
+    text-align: end;
 }
 
 .botonera {
@@ -28,8 +39,35 @@
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    grid-gap:0.5rem;
 }
 
 .boton {
     border-radius: 50%;
+    border: 1px solid violet;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+/* historial/cientifica-comun */
+.botonModos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px  solid green;
+}
+
+.modos {
+    width: 50%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.boton-operacionesBasicas {
+    background-color: rgb(211, 110, 211);
+}
+
+.boton-receteo {
+    background-color: aquamarine;
 }
