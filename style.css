@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+}
+
+.container {
+    border: 1px  solid green;
+    max-width: 60%; 
+}
+
+.visor{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.expresion {
+    /* border: 1px solid blue; */
+}
+
+.resultado {
+
+}
+
+.botonera {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.boton {
+    border-radius: 50%;
+}
