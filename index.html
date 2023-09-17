@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="calculadora">
         <div class="visor">
             <p class="expresion"></p>
             <p class="resultado"></p>
         </div>
         <div class="botonera">
             <button class="boton boton-receteo">AC</button>
-            <button class="boton">( )</button>
-            <button class="boton">%</button>
-            <button class="boton boton-operacionesBasicas">/</button>
-            <button class="boton">7</button>
-            <button class="boton">8</button>
-            <button class="boton">9</button>
-            <button class="boton boton-operacionesBasicas">*</button>
-            <button class="boton">4</button>
-            <button class="boton">5</button>
-            <button class="boton">6</button>
-            <button class="boton boton-operacionesBasicas">-</button>
-            <button class="boton">1</button>
-            <button class="boton">2</button>
-            <button class="boton">3</button>
-            <button class="boton boton-operacionesBasicas">+</button>
-            <button class="boton">0</button>
-            <button class="boton">.</button>
-            <button class="boton">←</button>
-            <button class="boton boton-operacionesBasicas">=</button>
+            <button class="boton boton-operaciones">( )</button>
+            <button class="boton boton-operaciones">%</button>
+            <button class="boton boton-operaciones boton-division">/</button>
+            <button class="boton boton-numeros">7</button>
+            <button class="boton boton-numeros">8</button>
+            <button class="boton boton-numeros">9</button>
+            <button class="boton boton-operaciones boton-multiplicacion">*</button>
+            <button class="boton boton-numeros">4</button>
+            <button class="boton boton-numeros">5</button>
+            <button class="boton boton-numeros">6</button>
+            <button class="boton boton-operaciones boton-resta">-</button>
+            <button class="boton boton-numeros">1</button>
+            <button class="boton boton-numeros">2</button>
+            <button class="boton boton-numeros">3</button>
+            <button class="boton boton-operaciones boton-suma">+</button>
+            <button class="boton boton-numeros">0</button>
+            <button class="boton boton-numeros">.</button>
+            <button class="boton boton-borrar">←</button>
+            <button class="boton boton-operaciones boton-igual">=</button>
         </div>
         <div class="botonModos">
             <button class="modos">Científica</button>
@@ -41,6 +41,7 @@
         </div>
     </div>
     <!-- link js -->
-<script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.js" integrity="sha512-JLWfLWde2M173Tt7ju+tBz8OSzcfpCmkwK75AE2ErZYBWxN9143UWlIoHq8KrfBusmLu34d6SmHu3JwJHbufnw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

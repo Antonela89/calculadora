@@ -8,14 +8,18 @@
 
 /* diseño mobile */
 body{
+    min-height: 100vh;
+    background-color: #65818C;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container {
-    border: 1px  solid green;
+.calculadora {
+    border: 1px  solid #F0F0F2;
+    background-color: #261919;
     max-width: 60%; 
+    min-width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +28,8 @@ body{
 
 .visor{
     width: 100%;
-    border: 1px solid red;
+    border-bottom: 1px solid #F0F0F2;
+    color: #F0F0F2;
 }
 
 .expresion, .resultado {
@@ -40,13 +45,22 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-gap:0.5rem;
+
 }
 
 .boton {
     border-radius: 50%;
-    border: 1px solid violet;
+    /* border: 1px solid #F0F0F2; */
+    border: none;
     padding: 1rem;
     margin: 0.5rem;
+    color: #F0F0F2;
+    background-color: #8AB0BF;
+    font-weight: 700;
+}
+
+.boton:hover{
+    opacity: 0.8;
 }
 
 /* historial/cientifica-comun */
@@ -55,7 +69,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px  solid green;
+    border-top: 1px solid #F0F0F2;
 }
 
 .modos {
@@ -64,10 +78,10 @@ body{
     margin: 1rem;
 }
 
-.boton-operacionesBasicas {
-    background-color: rgb(211, 110, 211);
+.boton-operaciones {
+    background-color: #BF8F54;
 }
 
 .boton-receteo {
-    background-color: aquamarine;
+    background-color: #734F2F;
 }
